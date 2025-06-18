@@ -1,21 +1,23 @@
-### What is lzdocker?
+# What is lzdocker?
 A tool that generates the docker run command for running Docker containers with just one click.
 
 
-## Usage
-X86 or AMD architecture uses `lzdocker`, ARM architecture uses `lzdocker-arm`
+# Usage
+please download to your linux system from <https://github.com/feriki/lzdocker/releases>
 
-# Excute command
+And X86 or AMD architecture uses `lzdocker`, ARM architecture uses `lzdocker-arm`.
+
+## Excute command
 -> For all runing containers</br>
 lzdocker {allrun}
 
 -> For all containers include shutdown</br>
 lzdocker {all}
 
-> For one or more containers</br>
+-> For one or more containers</br>
 lzdocker <CONTAINER NAME or ID> [CONTAINER...]
 
-# Example:
+## Example:
 -> input:</br>
 ./lzdocker milvus-etcd
 
